@@ -103,9 +103,9 @@ function icons() {
 		family: 'fas'
 	}
  ];
- let card = $('.card');
- let icon = $('.card i');
- let container = $('.container');
+ let card = $('.mycard');
+ let icon = $('.mycard i');
+ let container = $('.contenitore');
  icons.forEach((item) => {
   let card_copy = card.clone();
   card_copy.removeClass('none');

@@ -27,28 +27,29 @@ body{
   color: white;
 }
 
-.container{
+.contenitore{
+  background-color: #F5F5F5;
   padding: 20px 1%;
   width: 100%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
 }
-.card{
+.mycard{
   width: 200px;
   height: 110px;
+  background-color: white;
   margin-left:  40px;
   margin-right: 40px;
   margin-bottom: 60px;
   border-radius: 15px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  background-color: #F5F5F5;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.card i{
+.mycard i{
   font-size: 40px;
   margin-bottom: 10px;
 }
@@ -66,4 +67,14 @@ body{
 }
 .purple{
   color: #823180;
+}
+#btnGroupDrop1{
+  margin-left: 15px;
+  background-color: white;
+  color: black;
+  height: 30px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
