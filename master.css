@@ -26,6 +26,10 @@ body{
   align-items: center;
   color: white;
 }
+.menu h3{
+  font-size: 25px;
+  margin-bottom: 0;
+}
 
 .contenitore{
   background-color: #F5F5F5;
@@ -51,7 +55,10 @@ body{
 }
 .mycard i{
   font-size: 40px;
-  margin-bottom: 10px;
+
+}
+.mycard p{
+  margin-bottom: 0;
 }
 .none {
   display: none;
@@ -68,13 +75,9 @@ body{
 .purple{
   color: #823180;
 }
-#btnGroupDrop1{
-  margin-left: 15px;
-  background-color: white;
-  color: black;
-  height: 30px;
+.i-form-select{
+  height: 20px;
   width: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-size: 15px;
+  margin-left: 15px;
 }
