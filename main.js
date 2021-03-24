@@ -122,6 +122,12 @@ function icons() {
      card_copy.children('i').addClass('purple');
   }
  });
+  $('#animali').click(function(){
+    card_copy.addClass('none');
+    if (card_copy.children('i').hasClass('animal')) {
+      $(this).addClass('active');
+    }
+  })
 
 
 }
